@@ -5,7 +5,7 @@ $gray-900: #212529;
 // scss-docs-end gray-color-variables
 
 // scss-docs-start color-variables
-$c-primary:    #ad5521;
+$c-primary:    #FF5A30;
 $c-secondary:  #1085f2;
 $red:     #cc0a1e;
 $yellow:  #e6ff07;
@@ -27,11 +27,26 @@ $dark:          $gray-900;
 // Square radius
 $border-radius:               0;
 
+$btn-border-radius: 0.2rem;
+
+
 // Create your own map
 $custom-colors: (
   "custom-color": rgb(203, 17, 209)
 );
+$nav-link-font-weight: 700;
+$nav-link-font-size: 1.2rem;
+$nav-link-padding-x: .7rem;
+
+$link-hover-color: $primary;
 
 // scss-docs-start font-variables
 // stylelint-disable value-keyword-case
-$font-family-sans-serif: 'Edu SA Beginner', cursive, serif;
+$font-family-sans-serif: 'Ubuntu', cursive, serif;
+$font-size-sm: 0.8rem;
+$small-font-size:  0.5rem;
+
+$width-mobile: 320px;
+$width-tablet: 768px;
+$width-large: 992px;
+$width-desktop: 1200px;

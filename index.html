@@ -7,26 +7,344 @@
     <meta name="description" content="About website">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="public/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Meroitic&family=Ubuntu:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
     <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
     <link href="../node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet">
 </head>
 
 <body>
+    <!-- header -->
     <header class="header">
-        <h1 class="text-center py-5 text-uppercase">hello world</h1>
+        <header class="header fixed-top">
+            <nav class="navbar navbar-expand-lg py-3 bg-white">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="theme-kit.html">
+                        <img class="w-50-" src="/public/img/logo-dark.svg" alt="">
+                    </a>
+
+                    <div class="d-flex align-items-center">
+                        <a href="#" class="btn d-lg-none px-0 btn-link- fw-bold d-flex align-items-center">
+                            <i class="fa-solid fs-4 fa-mobile-screen"></i>
+                        </a>
+                        <a href="#" class="btn d-lg-none btn-link- fw-bold d-flex align-items-center">
+                            <i class="fa-regular fs-4 fa-comments"></i>
+                        </a>
+                        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon mt-1"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Home
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Service
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Works
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    About
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    News
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex align-items-center" role="search">
+                            <a href="#" class="btn btn-link- fw-bold d-flex align-items-center">
+                                <i class="fa-solid fs-3 text-primary me-3 fa-mobile-screen"></i>
+                                call us
+                            </a>
+                            <a href="#" class="btn btn-link- fw-bold d-flex align-items-center">
+                                <i class="fa-regular fs-3 text-primary me-3 fa-comments"></i>
+                                Talk to us
+                            </a>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
     </header>
-    
+
     <main>
+        <!-- leader -->
+        <section class="leader py-5">
+            <div class="container">
+                <div class="row text-start-">
+                    <div class="col col-8 d-none d-lg-block text-start">
+                        <div class="my-4">
+                            <p class="text-center text-lg-start fs-6">
+                                Are you looking for a reliable construction
+                                company to make your dream come true?
+                                Createx Construction Bureau is your best choice.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col col-lg-5 position-relative z-1 d-flex flex-column justify-content-lg-between">
+                        <h3 class="text-center text-lg-start py-3">Over 20 years leader in</h3>
+                        <h1 class="text-center text-lg-start  text-uppercase display-2 fw-bold">construction buisness
+                        </h1>
+
+                        <div class="d-flex flex-column align-items-center align-items-lg-start">
+                            <div class="order-2 my-5  mb-lg-0">
+                                <a href="#">
+                                    <i class="fa-brands p-2 text-dark- fa-facebook-f"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-brands p-2 text-dark- fa-twitter"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-brands p-2 text-dark- fa-youtube"></i>
+                                </a>
+                            </div>
+                            <div class="d-none d-lg-flex  justify-content-center my-5 my-lg-2 order-1">
+                                <a href="#" class="btn btn-primary text-white text-uppercase w-100">
+
+                                    explore our projects
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-lg-7">
+                        <!-- splide -->
+                        <section class="splide" id="news" aria-label="Basic Structure Example">
+                            <div class="splide__arrows">
+                                <button class="splide__arrow splide__arrow--prev">
+                                    <i class="fa-solid fa-arrow-left"></i>
+                                </button>
+                                <button class="splide__arrow splide__arrow--next">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </div>
+                            <div class="splide__track">
+                                <ul class="splide__list">
+                                    <li class="splide__slide ">
+                                        <img class="w-100" src="/public/img/01.jpg" alt="">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img class="w-100" src="/public/img/02.jpg" alt="">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img class="w-100" src="/public/img/03.jpg" alt="">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img class="w-100" src="/public/img/04.jpg" alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+                <div class="my-4 d-lg-none">
+                    <p class="text-center fs-sm">
+                        Are you looking for a reliable construction
+                        company to make your dream come true?
+                        Createx Construction Bureau is your best choice.
+                    </p>
+                    <div class="d-flex align-items-center justify-content-center my-5">
+                        <a href="#" class="btn btn-primary text-white text-uppercase w-100">
+                            explore our projects
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center my-4 mt-lg-5">
+                    <span class="fs-sm">
+                        Become a part of the best team in the
+                        construction market of the USA.
+                        <a href="" class="text-primary">Aviable Position</a>
+                    </span>
+                </div>
+            </div>
+        </section>
+        <!-- construct-bureau -->
+        <div class="container">
+            <section class="construct-bureau my-5">
+                <div class="text-center">
+                    <h1 class="mb-4">We are Createx Construction Bureau</h1>
+                    <span class="text-dark">
+                        We are rightfully considered to be the best
+                        construction company in the USA.
+                    </span>
+                </div>
+                <div class="object-fit-cover position-relative mt-4">
+                    <div class="position-absolute h-100 w-100 bg-dark opacity-75 z-5">
+                    </div>
+                    <img class="w-100" src="/public/img/video-cover.jpg" alt="">
+                    <div class="position-absolute top-50 start-50 translate-middle">
+                        <a href="#" class="link-play d-block p-3 rounded-pill">
+                            <i class=" fa-solid text-primary bg-white rounded-pill fa-circle-play"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!-- values -->
+            <section class="values">
+                <div class="row">
+                    <div class="col col-12 col-md-4"></div>
+                    <div class="col col-12 col-md-4"></div>
+                    <div class="col col-12 col-md-4"></div>
+                </div>
+            </section>
+        </div>
+        <!-- more -->
+        <section class="more my-5">
+            <div class="container">
+                <form action="">
+                    <div class="text-center">title</div>
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2">
+                        <div class="col"></div>
+                        <div class="col"></div>
+                        <div class="col"></div>
+                        <div class="col"></div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- services -->
+        <section class="services my-5">
+            <div class="container">
+                <div class="text-center">title</div>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2">
+                    <div class="col"></div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                </div>
+                <div class="d-md-flex align-items-center justify-content-center">
+                    <span>text</span>
+                    <button>button</button>
+                </div>
+            </div>
+        </section>
+        <!-- projects -->
+        <section class="projects">
+            <div class="container">
+                <div class="text-center">
+                    title
+                </div>
+                <section class="splide" id="projects" aria-label="Basic Structure Example">
+                    <div class="splide__arrows">
+                        <button class="splide__arrow splide__arrow--prev">
+                            <img class src="/public/img/arrow-sm-left-svgrepo-com.svg" alt="">
+                        </button>
+                        <button class="splide__arrow splide__arrow--next">
+                            <img class src="/public/img/arrow-sm-right-svgrepo-com.svg">
+
+                        </button>
+                    </div>
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">Slide 01</li>
+                            <li class="splide__slide">Slide 02</li>
+                            <li class="splide__slide">Slide 03</li>
+                        </ul>
+                    </div>
+                </section>
+                <div class="d-md-flex align-items-center justify-content-center">
+                    <span>text</span>
+                    <button>view portfolio</button>
+                </div>
+            </div>
+        </section>
+        <!-- support -->
+        <section class="support">
+            <div class="container">
+                <div class="text-center">
+                    title
+                </div>
+                <section class="splide" id="support" aria-label="Basic Structure Example">
+                    <div class="splide__arrows">
+                        <button class="splide__arrow splide__arrow--prev">
+                            <img class src="/public/img/arrow-sm-left-svgrepo-com.svg" alt="">
+                        </button>
+                        <button class="splide__arrow splide__arrow--next">
+                            <img class src="/public/img/arrow-sm-right-svgrepo-com.svg">
+
+                        </button>
+                    </div>
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">Slide 01</li>
+                            <li class="splide__slide">Slide 02</li>
+                            <li class="splide__slide">Slide 03</li>
+                            <li class="splide__slide">Slide 04</li>
+                            <li class="splide__slide">Slide 05</li>
+                            <li class="splide__slide">Slide 06</li>
+                            <li class="splide__slide">Slide 07</li>
+                            <li class="splide__slide">Slide 08</li>
+                            <li class="splide__slide">Slide 09</li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+
+
+    </main>
+
+    <footer style="margin-top: 300px;">
         <div class="container-fluid">
             <a href="theme-kit.html" class="btn btn-danger">theme-kit</a>
             <button class="btn btn-primary">open</button>
             <div class="badge bg-success rounded-pill">badge</div>
             <div class="col-3 p-4 border border-success me-2 my-2">run</div>
-    
-        </div>
-    </main>
 
-    <footer>
+        </div>
     </footer>
 
     <script src="js/main.js"></script>
