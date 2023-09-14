@@ -10977,8 +10977,6 @@ textarea.form-control-lg {
   }
 }
 ul, li, div, span, article, section, nav, form {
-  min-height: 50px;
-  outline-style: dashed;
   outline-color: tomato;
   outline-width: 1px;
 }
@@ -11086,4 +11084,18 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 .construct-bureau .link-play:hover {
   background-color: rgba(255, 89, 48, 0.3803921569);
+}
+
+.values .fa-solid {
+  font-size: 80px;
+}
+.values .card .card-text {
+  color: #6c757d;
+}
+.values .card .card-img {
+  width: max-content;
+}
+.values .border-vertical {
+  width: 1px;
+  background-color: #f8f9fa;
 }

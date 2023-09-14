@@ -1,0 +1,18 @@
+.values{
+    .fa-solid{
+        font-size: 80px;
+    }
+    .card{
+
+        .card-text{
+            color: $gray-600;
+        }
+        .card-img{
+            width: max-content;
+        }
+    }
+    .border-vertical{
+        width: 1px; 
+        background-color: $light ;
+    }
+} 

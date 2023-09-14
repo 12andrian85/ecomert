@@ -77,3 +77,41 @@ var support = new Splide('#support', {
   });
   
   support.mount();
+
+var reviews = new Splide('#reviews', {
+    type: 'loop',
+    autoplay: 'false',
+    perPage: 1,
+    focus: '0',
+    arrows: true,
+    breakpoints: {
+      640: {
+        perPage: 1,
+      },
+      768: {
+        perPage: 3,
+      },
+      1200: {
+        perPage: 4,
+      },
+    }
+  
+  });
+  
+  reviews.mount();
+
+var statistics = new Splide('#statistics', {
+    type: 'loop',
+    autoplay: 'true',
+    perPage: 1,
+    focus: '0',
+    arrows: true,
+    breakpoints: {
+      640: {
+        perPage: 1,
+      },
+    }
+  
+  });
+  
+  statistics.mount();
