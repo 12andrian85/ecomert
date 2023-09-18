@@ -89,10 +89,10 @@ var reviews = new Splide('#reviews', {
         perPage: 1,
       },
       768: {
-        perPage: 3,
+        perPage: 1,
       },
       1200: {
-        perPage: 4,
+        perPage: 1,
       },
     }
   
@@ -108,7 +108,16 @@ var statistics = new Splide('#statistics', {
     arrows: true,
     breakpoints: {
       640: {
-        perPage: 1,
+        perPage: 2,
+      },
+      768: {
+        perPage: 3,
+      },
+      1200: {
+        perPage: 5,
+      },
+      2560: {
+        perPage: 6,
       },
     }
   

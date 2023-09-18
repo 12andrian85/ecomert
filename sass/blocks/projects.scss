@@ -1,0 +1,52 @@
+.projects {
+    .splide {
+
+        &__arrow{
+            background-color: transparent;
+              
+            .icon{
+                stroke: $dark;
+                font-size: 24px;
+            }
+        }
+
+        &__arrow--prev {
+            right: 70px;
+            left: auto;
+          
+        }
+
+        &__arrow:hover {
+            height: 50px;
+            width: 50px;
+            background-color: $primary;
+
+              
+            .icon{
+                stroke: $white;
+                font-size: 24px;
+            }
+        }
+
+        .card {
+            .card-body {
+                transform: translateY(5.25rem)
+            }
+
+        }
+
+        &__slide:hover {
+            .card-body {
+                transform: translateY(0);
+                transition: transform .3s ease-in-out;
+                // will-change: transform;
+            }
+
+            .card-img-top {
+                transition: transform .25s ease-in-out;
+                will-change: transform;
+
+            }
+        }
+    }
+}

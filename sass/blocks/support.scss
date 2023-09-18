@@ -1,0 +1,26 @@
+.support {
+    background-color: $gray-100;
+
+    .splide {
+        .splide__swap--from {
+            // display: none;
+            display: block;
+            filter: grayscale(100%);
+            transition: all 300ms;
+            opacity: 0.5;
+        }
+        
+        
+        .splide__swap--from:hover{
+            filter: grayscale(0%);
+            opacity: 1;
+        }
+
+        .splide__pagination{
+            display: none;
+        }
+
+       
+
+    }
+}

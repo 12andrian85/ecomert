@@ -88,11 +88,11 @@
   --bs-tertiary-bg: #f8f9fa;
   --bs-tertiary-bg-rgb: 248, 249, 250;
   --bs-heading-color: inherit;
-  --bs-link-color: #FF5A30;
-  --bs-link-color-rgb: 255, 90, 48;
+  --bs-link-color: #212529;
+  --bs-link-color-rgb: 33, 37, 41;
   --bs-link-decoration: underline;
-  --bs-link-hover-color: #FF5A30;
-  --bs-link-hover-color-rgb: 255, 90, 48;
+  --bs-link-hover-color: #1a1e21;
+  --bs-link-hover-color-rgb: 26, 30, 33;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #faffcd;
   --bs-border-width: 1px;
@@ -2242,7 +2242,7 @@ progress {
   --bs-btn-disabled-color: #6c757d;
   --bs-btn-disabled-border-color: transparent;
   --bs-btn-box-shadow: 0 0 0 #000;
-  --bs-btn-focus-shadow-rgb: 217, 77, 41;
+  --bs-btn-focus-shadow-rgb: 66, 70, 73;
   text-decoration: underline;
 }
 .btn-link:focus-visible {
@@ -10990,6 +10990,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-weight: 900;
 }
 
+.btn-outline-primary:hover {
+  color: #fff;
+}
+
 .header {
   box-shadow: 0px 0px 40px 6px gray;
 }
@@ -11102,4 +11106,115 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 .values .border-vertical {
   width: 1px;
   background-color: #f8f9fa;
+}
+
+.more .more-bg {
+  height: 14vh;
+  background-color: #f8f9fa;
+}
+
+.services {
+  background-color: #f8f9fa;
+}
+.services .card {
+  background-image: url(/public/img/01\ \(1\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  display: inline-block;
+}
+.services .card .icon-svg {
+  height: 55px;
+  fill: #fff;
+}
+.services .card .icon-block {
+  height: 55px;
+  fill: #FF5A30;
+}
+.services .card .card-block {
+  display: flex;
+  height: 350px;
+  background-color: white;
+}
+.services .card-project {
+  background-image: url(/public/img/02\ \(1\).jpg);
+}
+.services .card-design {
+  background-image: url(/public/img/03\ \(1\).jpg);
+}
+.services .card-repair {
+  background-image: url(/public/img/04\ \(1\).jpg);
+}
+.services .cart:hover .card-block {
+  transition: 1s;
+  display: none;
+}
+
+.projects .splide__arrow {
+  background-color: transparent;
+}
+.projects .splide__arrow .icon {
+  stroke: #212529;
+  font-size: 24px;
+}
+.projects .splide__arrow--prev {
+  right: 70px;
+  left: auto;
+}
+.projects .splide__arrow:hover {
+  height: 50px;
+  width: 50px;
+  background-color: #FF5A30;
+}
+.projects .splide__arrow:hover .icon {
+  stroke: #fff;
+  font-size: 24px;
+}
+.projects .splide .card .card-body {
+  transform: translateY(5.25rem);
+}
+.projects .splide__slide:hover .card-body {
+  transform: translateY(0);
+  transition: transform 0.3s ease-in-out;
+}
+.projects .splide__slide:hover .card-img-top {
+  transition: transform 0.25s ease-in-out;
+  will-change: transform;
+}
+
+.support {
+  background-color: #f8f9fa;
+}
+.support .splide .splide__swap--from {
+  display: block;
+  filter: grayscale(100%);
+  transition: all 300ms;
+  opacity: 0.5;
+}
+.support .splide .splide__swap--from:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+.support .splide .splide__pagination {
+  display: none;
+}
+
+.reviews {
+  background-color: #f8f9fa;
+}
+.reviews .splide__autor {
+  height: 65px;
+}
+.reviews .splide__arrow {
+  display: none;
+}
+
+.news .card .card-title:hover {
+  color: #FF5A30;
+}
+.news .card .card-crumb {
+  color: #6c757d;
+}
+.news .card .card-crumb:hover {
+  color: #000;
 }

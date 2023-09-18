@@ -1,0 +1,48 @@
+.services {
+    background-color: $gray-100;
+    .card {
+        background-image: url(/public/img/01\ \(1\).jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 350px;
+        display: inline-block;
+
+
+
+        .icon-svg {
+            height: 55px;
+            fill: $white;
+        }
+
+        .icon-block {
+            height: 55px;
+            fill: $primary;
+
+        }
+
+        .card-block {
+            display: flex;
+            height: 350px;
+            background-color: white;
+
+        }
+
+    }
+    .card-project{
+        background-image: url(/public/img/02\ \(1\).jpg);
+    }
+    .card-design{
+        background-image: url(/public/img/03\ \(1\).jpg);
+    }
+    .card-repair{
+        background-image: url(/public/img/04\ \(1\).jpg);
+    }
+
+    .cart:hover {
+        .card-block {
+           transition: 1s;
+            display: none;
+            
+        }
+    }
+}

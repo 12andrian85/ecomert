@@ -1,0 +1,13 @@
+.news{
+    .card{
+        .card-title:hover{
+            color: $primary;
+        }
+        .card-crumb{
+            color: $gray-600;
+        }
+        .card-crumb:hover{
+            color: $black;
+        }
+    }
+}
