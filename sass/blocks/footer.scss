@@ -1,0 +1,48 @@
+.footer {
+    background-color: $dark;
+   
+    &__svg {
+        color: $gray-600;
+    }
+
+    &__svg:hover {
+        color: $primary;
+    }
+
+    &__title {
+        color: $gray-600;
+    }
+
+    &__text {
+        color: $gray-600;
+        line-height: 1.2;
+    }
+
+    &__input {
+        color: $black;
+        border: 1px solid $gray-500;
+        background-color: $gray-600;
+    }
+
+    &__input:focus {
+        background-color: $white;
+        color: $black;
+    }
+
+    &__subtext {
+        color: $gray-600;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    &__list {
+        text-decoration: none;
+        color: $gray-600;
+        font-weight: 500;
+    }
+
+    &__list:hover {
+        color: $white;
+        transform: all (1.1);
+    }
+}

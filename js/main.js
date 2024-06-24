@@ -58,7 +58,7 @@ var support = new Splide('#support', {
     autoplay: 'true',
     perPage: 1,
     focus: '0',
-    arrows: true,
+    arrows: false,
     breakpoints: {
       640: {
         perPage: 2,
@@ -105,7 +105,7 @@ var statistics = new Splide('#statistics', {
     autoplay: 'true',
     perPage: 1,
     focus: '0',
-    arrows: true,
+    arrows: false,
     breakpoints: {
       640: {
         perPage: 2,

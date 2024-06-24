@@ -1,13 +1,23 @@
-.news{
-    .card{
-        .card-title:hover{
+.news {
+    .card {
+        .card-title:hover {
             color: $primary;
         }
-        .card-crumb{
+
+        .card-crumb {
             color: $gray-600;
         }
-        .card-crumb:hover{
+
+        .card-crumb:hover {
             color: $black;
         }
+
+        .card-img-top {
+            transition: all 0.2s linear;
+        }
+        .card-img-top:hover {
+            transform: scale(1.1);
+        }
+
     }
 }

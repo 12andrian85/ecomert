@@ -1,52 +1,53 @@
 .projects {
-    .splide {
-
+   
+    .splide{
         &__arrow{
-            background-color: transparent;
-              
-            .icon{
-                stroke: $dark;
-                font-size: 24px;
-            }
+            display: block;
         }
 
-        &__arrow--prev {
-            right: 70px;
-            left: auto;
-          
+        &__arrow img {
+            width: 35px;
+        }
+
+        &__arrow {
+            background-color: transparent;
+
         }
 
         &__arrow:hover {
-            height: 50px;
-            width: 50px;
             background-color: $primary;
-
-              
-            .icon{
-                stroke: $white;
-                font-size: 24px;
+            box-shadow: 0px 0px 0px 14px $primary;
+            .fa-solid{
+                color: $white;
             }
         }
 
-        .card {
-            .card-body {
-                transform: translateY(5.25rem)
-            }
 
+        &__arrow--prev {
+            top: 20px;
+            right: 55px;
+            left: auto;
         }
 
-        &__slide:hover {
-            .card-body {
-                transform: translateY(0);
-                transition: transform .3s ease-in-out;
-                // will-change: transform;
-            }
-
-            .card-img-top {
-                transition: transform .25s ease-in-out;
-                will-change: transform;
-
-            }
+        &__arrow--next {
+            top: 20px;
+            right: 0;
+        }
+        .fa-solid{
+            font-size: 24px;
+        }
+    }
+    .card{
+        display: block;
+        .card-body{
+            height: 85px;
+            transition: all ease-in-out 1s;
+        }
+    }
+    .card:hover{
+        .card-body{
+            height: auto;
+            transition: transform .25s ease-in-out;
         }
     }
 }

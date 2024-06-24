@@ -10976,11 +10976,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-ul, li, div, span, article, section, nav, form {
-  outline-color: tomato;
-  outline-width: 1px;
-}
-
 .form-control {
   color: #6c757d;
 }
@@ -10988,6 +10983,10 @@ ul, li, div, span, article, section, nav, form {
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   color: #212529;
   font-weight: 900;
+}
+
+a {
+  text-decoration: none;
 }
 
 .btn-outline-primary:hover {
@@ -11005,7 +11004,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 
 .leader {
-  background-image: url("/public/img/bg.jpg");
+  background-image: url("https://12andrian85.github.io/ecomert/public/img/bg.jpg");
   background-position: center;
   object-fit: cover;
   margin-top: 75px;
@@ -11117,7 +11116,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   background-color: #f8f9fa;
 }
 .services .card {
-  background-image: url(/public/img/01\ \(1\).jpg);
+  background-image: url("https://12andrian85.github.io/ecomert/public/img/image_4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 350px;
@@ -11135,51 +11134,59 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   display: flex;
   height: 350px;
   background-color: white;
+  transition: 0.7s;
 }
 .services .card-project {
-  background-image: url(/public/img/02\ \(1\).jpg);
+  background-image: url("https://12andrian85.github.io/ecomert/public/img/image_1.jpg");
 }
 .services .card-design {
-  background-image: url(/public/img/03\ \(1\).jpg);
+  background-image: url("https://12andrian85.github.io/ecomert/public/img/image_2.jpg");
 }
 .services .card-repair {
-  background-image: url(/public/img/04\ \(1\).jpg);
+  background-image: url("https://12andrian85.github.io/ecomert/public/img/image_3.jpg");
 }
 .services .cart:hover .card-block {
-  transition: 1s;
-  display: none;
+  filter: opacity(0);
 }
 
 .projects .splide__arrow {
+  display: block;
+}
+.projects .splide__arrow img {
+  width: 35px;
+}
+.projects .splide__arrow {
   background-color: transparent;
 }
-.projects .splide__arrow .icon {
-  stroke: #212529;
-  font-size: 24px;
+.projects .splide__arrow:hover {
+  background-color: #FF5A30;
+  box-shadow: 0px 0px 0px 14px #FF5A30;
+}
+.projects .splide__arrow:hover .fa-solid {
+  color: #fff;
 }
 .projects .splide__arrow--prev {
-  right: 70px;
+  top: 20px;
+  right: 55px;
   left: auto;
 }
-.projects .splide__arrow:hover {
-  height: 50px;
-  width: 50px;
-  background-color: #FF5A30;
+.projects .splide__arrow--next {
+  top: 20px;
+  right: 0;
 }
-.projects .splide__arrow:hover .icon {
-  stroke: #fff;
+.projects .splide .fa-solid {
   font-size: 24px;
 }
-.projects .splide .card .card-body {
-  transform: translateY(5.25rem);
+.projects .card {
+  display: block;
 }
-.projects .splide__slide:hover .card-body {
-  transform: translateY(0);
-  transition: transform 0.3s ease-in-out;
+.projects .card .card-body {
+  height: 85px;
+  transition: all ease-in-out 1s;
 }
-.projects .splide__slide:hover .card-img-top {
+.projects .card:hover .card-body {
+  height: auto;
   transition: transform 0.25s ease-in-out;
-  will-change: transform;
 }
 
 .support {
@@ -11217,4 +11224,55 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 .news .card .card-crumb:hover {
   color: #000;
+}
+.news .card .card-img-top {
+  transition: all 0.2s linear;
+}
+.news .card .card-img-top:hover {
+  transform: scale(1.1);
+}
+
+.form {
+  background-image: url("https://12andrian85.github.io/ecomert/public/img/detail-form-bg.jpg");
+  background-size: cover;
+}
+
+.footer {
+  background-color: #212529;
+}
+.footer__svg {
+  color: #6c757d;
+}
+.footer__svg:hover {
+  color: #FF5A30;
+}
+.footer__title {
+  color: #6c757d;
+}
+.footer__text {
+  color: #6c757d;
+  line-height: 1.2;
+}
+.footer__input {
+  color: #000;
+  border: 1px solid #adb5bd;
+  background-color: #6c757d;
+}
+.footer__input:focus {
+  background-color: #fff;
+  color: #000;
+}
+.footer__subtext {
+  color: #6c757d;
+  font-size: 12px;
+  font-weight: 600;
+}
+.footer__list {
+  text-decoration: none;
+  color: #6c757d;
+  font-weight: 500;
+}
+.footer__list:hover {
+  color: #fff;
+  transform: all 1.1;
 }
