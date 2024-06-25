@@ -11177,16 +11177,12 @@ a {
 .projects .splide .fa-solid {
   font-size: 24px;
 }
-.projects .card {
-  display: block;
-}
-.projects .card .card-body {
+.projects .card-body {
   height: 85px;
-  transition: all ease-in-out 1s;
+  transition: all 0.5s;
 }
 .projects .card:hover .card-body {
-  height: auto;
-  transition: transform 0.25s ease-in-out;
+  height: 150px;
 }
 
 .support {

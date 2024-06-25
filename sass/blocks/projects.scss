@@ -1,7 +1,7 @@
 .projects {
-   
-    .splide{
-        &__arrow{
+
+    .splide {
+        &__arrow {
             display: block;
         }
 
@@ -17,7 +17,8 @@
         &__arrow:hover {
             background-color: $primary;
             box-shadow: 0px 0px 0px 14px $primary;
-            .fa-solid{
+
+            .fa-solid {
                 color: $white;
             }
         }
@@ -33,21 +34,20 @@
             top: 20px;
             right: 0;
         }
-        .fa-solid{
+
+        .fa-solid {
             font-size: 24px;
         }
     }
-    .card{
-        display: block;
-        .card-body{
-            height: 85px;
-            transition: all ease-in-out 1s;
-        }
+
+    .card-body {
+        height: 85px;
+        transition: all 0.5s;
     }
-    .card:hover{
-        .card-body{
-            height: auto;
-            transition: transform .25s ease-in-out;
+
+    .card:hover {
+        .card-body {
+            height: 150px;
         }
     }
 }
